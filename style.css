@@ -468,6 +468,12 @@ p{
     .responsive-col h1{
         font-size: 24px;
     }
+    .RResponsive-col h1{
+        font-size: 24px;
+    }
+    .RResponsive-col h2, h3{
+        font-size: 16px;
+    }
     .responsive-col h2, h3{
         font-size: 16px;
     }
