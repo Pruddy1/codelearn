@@ -18,11 +18,11 @@
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">HOME</a></li>
-                    <li><a href="">WEBSITES</a></li>
-                    <li><a href="">ANIMATIONS</a></li>
-                    <li><a href="">JAVASCRIPTS </a></li>
-                    <li><a href="">BLOG</a></li>
-                    <li><a href="">EDITOR</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="socials.html.html">TOPICS</a></li>
+                    <li><a href="practical.html.html">PRACTICALS</a></li>
+                    <li><a href="topic.html.html">BLOG</a></li>
+                    <li><a href="index.html">EDITOR</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -60,11 +60,9 @@
                 </p>          
             </section>
             <section class="Responsive-web">
-                <div class="RRow">
-            <div class="responsive-col">
+            <div class="text-col">
                 <img src="images/Screenshot (471).png">
                 </div>
-        </div>
         </section>
     
         <section class="Responsive-web">
@@ -3009,6 +3007,16 @@ the class name "main-content"</p>
             </p>
         </div>
 </section>
+<!-------JavaScript for Toggle Menu-------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
 </body>
 </html>
 
